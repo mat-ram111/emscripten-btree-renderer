@@ -9,6 +9,6 @@ Also, I could not find any good implementations of Reingold-Tilford, and I think
 
 The WASM files are precompiled, so simply run
 `python3 -m http.server -d web`
-in the terminal, then open http://localhost:8000
+in the terminal, then open http://localhost:8000.
 
 However, the C++ core can be recompiled by running build.sh at the project root. This requires the instiallation of the Emscripten SDK.
